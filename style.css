@@ -9,3 +9,53 @@ body {
   height: 100%;
   width: 100%;
 }
+
+nav {
+  background-color: white;
+  padding: 1rem;
+}
+
+section.view1 {
+  background-color: #F4F7FB;
+
+  .container {
+    .top {
+      background-color:lightsteelblue;
+      padding: 2rem;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .bottom {
+       background-color:lightseagreen;
+      h1 {
+
+        font-size: 3rem;
+        padding: 2.5rem;
+        text-align: center;
+      }
+    }
+  }
+
+  .text {
+    padding: 2rem;
+
+    p {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width:900px) {
+  section.view1 {
+    padding: 1rem 4rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
