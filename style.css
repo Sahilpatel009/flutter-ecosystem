@@ -16,46 +16,57 @@ nav {
 }
 
 section.view1 {
+  width: 100%;
   background-color: #F4F7FB;
-
-  .container {
-    .top {
-      background-color:lightsteelblue;
-      padding: 2rem;
-
-      img {
-        width: 100%;
-      }
-    }
-
-    .bottom {
-       background-color:lightseagreen;
-      h1 {
-
-        font-size: 3rem;
-        padding: 2.5rem;
-        text-align: center;
-      }
-    }
-  }
-
-  .text {
-    padding: 2rem;
-
-    p {
-      font-size: 2.5rem;
-      text-align: center;
-    }
-  }
 }
 
-@media (min-width:900px) {
-  section.view1 {
-    padding: 1rem 4rem;
-  }
+section.view1 .container .top {
+  background-color: lightsteelblue;
+  padding: 2rem;
+}
+
+section.view1 .container .top img {
+  width: 100%;
+  display: block;
+}
+
+section.view1 .container .bottom {
+  background-color: lightseagreen;
+}
+
+section.view1 .container .bottom h1 {
+  font-size: 2.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  color: white;
+}
+
+section.view1 .text {
+  padding: 2rem;
+}
+
+section.view1 .text p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
 
   .container {
     display: flex;
     flex-direction: row-reverse;
+    align-items: stretch;
+  }
+
+  section.view1 .container .top,
+  section.view1 .container .bottom {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.view1 .container .bottom h1 {
+    font-size: 3.5rem;
   }
 }
