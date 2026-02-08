@@ -42,12 +42,17 @@ nav {
 }
 
 .view1 .text p {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   text-align: center;
-  line-height: 1.4;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.877);
 }
 
 /* View2 (Mobile First)  */
+.view2 {
+  margin-top: 10rem;
+}
+
 .view2 .container .img img {
   width: 100%;
   max-width: 332px;
@@ -73,13 +78,66 @@ nav {
 }
 
 /* View3 (Mobile First)  */
-.view3 .container .top img{
+.view3 .container .top img {
   width: 100%;
   max-width: 350px;
   height: auto;
   max-height: 300px;
   object-fit: cover;
+}
+
+.view3 .container .top {
+  margin-top: 10rem;
   text-align: center;
+}
+
+.view3 .container .bottom {
+  padding: 2rem;
+  margin-top: 5rem;
+}
+
+.view3 .container .bottom h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.view3 .container .bottom h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.61);
+}
+
+.view3 .container .bottom p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  padding-right: 1.5rem;
+  color: rgba(0, 0, 0, 0.637);
+}
+
+.view3 .container .bottom .btn {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10rem;
+  gap: 2rem;
+}
+
+.view3 .container .bottom button {
+  padding: 0.8rem 3rem;
+  border-radius: 3rem;
+  border: solid #0468D7;
+  color: #0468D7;
+}
+
+.view3 .container .bottom .btn button:hover {
+  background-color: #0468D7;
+  color: white;
+}
+
+.view3 .container .bottom .btn a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  margin-left: 2rem;
 }
 
 @media (min-width: 900px) {
