@@ -80,9 +80,8 @@ nav {
 /* View3 (Mobile First)  */
 .view3 .container .top img {
   width: 100%;
-  max-width: 350px;
+  max-width: 332px;
   height: auto;
-  max-height: 300px;
   object-fit: cover;
 }
 
@@ -140,6 +139,18 @@ nav {
   margin-left: 2rem;
 }
 
+/* View4 (Mobile First)  */
+.view4 .container {
+  background-color: #FCFCE2;
+}
+
+.view4 .container .top img {
+  width: 100%;
+  max-width: 332px;
+  height: auto;
+  object-fit: cover;
+}
+
 @media (min-width: 900px) {
 
   /* View1 (Desktop)  */
@@ -161,7 +172,7 @@ nav {
 
   .view1 .text p {
     font-size: 2.5rem;
-    max-width: 900px;
+    max-width: 899px;
     margin: 0 auto;
   }
 
@@ -192,4 +203,36 @@ nav {
   }
 
   /* View3 (Desktop)  */
+  .view3 .container {
+    padding: 2rem;
+  }
+
+  .view3 .container .bottom,
+  .bottom {
+    width: 50%;
+  }
+
+  .view3 .container .top img {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+  }
+
+  .view3 .container .bottom .text h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+  }
+
+  .view3 .container .bottom .text {
+    padding-left: 5rem;
+  }
+
+  .view3 .container .bottom .btn {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .view3 .container .bottom .btn button {
+    padding: 0rem 4rem;
+  }
 }
