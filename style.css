@@ -93,6 +93,7 @@ nav {
 .view3 .container .bottom {
   padding: 2rem;
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .view3 .container .bottom h1 {
@@ -146,9 +147,146 @@ nav {
 
 .view4 .container .top img {
   width: 100%;
-  max-width: 332px;
+  max-width: 370px;
   height: auto;
   object-fit: cover;
+}
+
+.view4 .container .top {
+  text-align: center;
+}
+
+.view4 .container .bottom {
+  padding: 2rem;
+  margin-top: 5rem;
+}
+
+.view4 .container .bottom h1 {
+  font-size: 3.3rem;
+  margin-bottom: 1.5rem;
+  line-height: 3rem;
+  font-weight: 650;
+}
+
+.view4 .container .bottom h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.61);
+}
+
+.view4 .container .bottom p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  padding-right: 1.5rem;
+  color: rgba(0, 0, 0, 0.637);
+}
+
+.view4 .container .bottom button {
+  padding: 0.8rem 3rem;
+  border-radius: 3rem;
+  background-color: #0468D7;
+  color: white;
+  border: none;
+}
+
+/* View5 (Mobile First)  */
+.view5 .container {
+  margin-top: 5rem;
+}
+
+.view5 .container .top img {
+  width: 100%;
+  max-width: 370px;
+  height: auto;
+  object-fit: cover;
+}
+
+.view5 .container .top {
+  text-align: center;
+}
+
+.view5 .container .bottom {
+  padding: 2rem;
+  margin-top: 5rem;
+}
+
+.view5 .container .bottom h1 {
+  font-size: 3.3rem;
+  margin-bottom: 1.5rem;
+  line-height: 3rem;
+  font-weight: 650;
+}
+
+.view5 .container .bottom h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.61);
+}
+
+.view5 .container .bottom p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  padding-right: 1.5rem;
+  color: rgba(0, 0, 0, 0.637);
+}
+
+.view5 .container .bottom button {
+  padding: 0.8rem 2.5rem;
+  border-radius: 3rem;
+  background-color: white;
+  color: #0468D7;
+  border: #0468D7 solid;
+}
+
+/* View6 (Mobile First)  */
+.view6 .container {
+  margin-top: 5rem;
+  background-color: #FCFCE2;
+}
+
+.view6 .container .top img {
+  width: 100%;
+  max-width: 370px;
+  height: auto;
+  object-fit: cover;
+}
+
+.view6 .container .top {
+  text-align: center;
+}
+
+.view6 .container .bottom {
+  padding: 2rem;
+  margin-top: 5rem;
+}
+
+.view6 .container .bottom h1 {
+  font-size: 3.3rem;
+  margin-bottom: 1.5rem;
+  line-height: 3rem;
+  font-weight: 650;
+}
+
+.view6 .container .bottom h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.61);
+}
+
+.view6 .container .bottom p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  padding-right: 1.5rem;
+  color: rgba(0, 0, 0, 0.637);
+}
+
+.view6 .container .bottom button {
+  padding: 0.8rem 2.5rem;
+  border-radius: 3rem;
+  background-color: #0468D7;
+  color: white;
+  border: #0468D7 solid;
+  cursor: pointer;
 }
 
 @media (min-width: 900px) {
@@ -234,5 +372,105 @@ nav {
 
   .view3 .container .bottom .btn button {
     padding: 0rem 4rem;
+  }
+
+  /* View4 (Desktop)  */
+
+  .view4 .container {
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .view4 .container .bottom,
+  .bottom {
+    width: 50%;
+  }
+
+  .view4 .container .top img {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+  }
+
+  .view4 .container .bottom .text h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 4rem;
+  }
+
+  .view4 .container .bottom .text {
+    padding-left: 5rem;
+  }
+
+  .view4 .container .bottom .text p {
+    font-size: 1.5rem;
+  }
+
+  /* View1 (Desktop)  */
+  .view5 .container {
+    margin-top: 4rem;
+    padding: 2rem;
+    display: flex;
+  }
+
+  .view5 .container .bottom,
+  .bottom {
+    width: 50%;
+  }
+
+  .view5 .container .top img {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+  }
+
+  .view5 .container .bottom .text h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 4rem;
+  }
+
+  .view5 .container .bottom .text {
+    padding-left: 5rem;
+  }
+
+  .view5 .container .bottom .text p {
+    font-size: 1.5rem;
+  }
+
+  /* View4 (Desktop)  */
+
+  .view6 .container {
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .view6 .container .bottom,
+  .bottom {
+    width: 50%;
+  }
+
+  .view6 .container .top img {
+    width: 100%;
+    max-width: 460px;
+    height: auto;
+  }
+
+  .view6 .container .bottom .text h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 4rem;
+  }
+
+  .view6 .container .bottom .text {
+    padding-left: 5rem;
+  }
+
+  .view6 .container .bottom .text p {
+    font-size: 1.5rem;
   }
 }
