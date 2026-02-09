@@ -20,6 +20,7 @@ nav {
 }
 
 /* View1 (Mobile First)  */
+
 .view1 .container .top img {
   width: 100%;
   display: block;
@@ -49,6 +50,7 @@ nav {
 }
 
 /* View2 (Mobile First)  */
+
 .view2 {
   margin-top: 10rem;
 }
@@ -78,6 +80,7 @@ nav {
 }
 
 /* View3 (Mobile First)  */
+
 .view3 .container .top img {
   width: 100%;
   max-width: 332px;
@@ -141,6 +144,7 @@ nav {
 }
 
 /* View4 (Mobile First)  */
+
 .view4 .container {
   background-color: #FCFCE2;
 }
@@ -190,6 +194,7 @@ nav {
 }
 
 /* View5 (Mobile First)  */
+
 .view5 .container {
   margin-top: 5rem;
 }
@@ -239,6 +244,7 @@ nav {
 }
 
 /* View6 (Mobile First)  */
+
 .view6 .container {
   margin-top: 5rem;
   background-color: #FCFCE2;
@@ -289,9 +295,38 @@ nav {
   cursor: pointer;
 }
 
+/* View6 (Mobile First)  */
+
+.view7 {
+  background-color: white;
+  padding: 4rem 2rem;
+}
+
+.view7 .container {
+  border-radius: 3rem;
+  background-color: #042449;
+  padding: 3rem 2rem;
+}
+
+.view7 .container .top {
+  /* position: relative; */
+   position: relative;
+  top: 0%;
+}
+
+.view7 .container .top img {
+  /* position: absolute; */
+ 
+  width: 100%;
+  max-width: 370px;
+  height: auto;
+  /* object-fit: cover; */
+}
+
 @media (min-width: 900px) {
 
   /* View1 (Desktop)  */
+
   .container {
     display: flex;
     flex-direction: row-reverse;
@@ -319,6 +354,7 @@ nav {
   }
 
   /* View2 (Desktop)  */
+
   .view2 .container {
     display: flex;
     flex-direction: row;
@@ -341,6 +377,7 @@ nav {
   }
 
   /* View3 (Desktop)  */
+
   .view3 .container {
     padding: 2rem;
   }
@@ -409,6 +446,7 @@ nav {
   }
 
   /* View1 (Desktop)  */
+
   .view5 .container {
     margin-top: 4rem;
     padding: 2rem;
