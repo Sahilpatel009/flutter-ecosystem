@@ -21,6 +21,11 @@ nav {
 
 /* View1 (Mobile First)  */
 
+.view1 {
+  margin-top: 5rem;
+  background: linear-gradient(white, rgba(255, 205, 214, 0.589) 70%);
+}
+
 .view1 .container .top img {
   width: 100%;
   display: block;
@@ -47,6 +52,7 @@ nav {
   text-align: center;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.877);
+
 }
 
 /* View2 (Mobile First)  */
@@ -146,7 +152,7 @@ nav {
 /* View4 (Mobile First)  */
 
 .view4 .container {
-  background-color: #FCFCE2;
+  background: linear-gradient(to top, #FCFCE2, white);
 }
 
 .view4 .container .top img {
@@ -247,7 +253,7 @@ nav {
 
 .view6 .container {
   margin-top: 5rem;
-  background-color: #FCFCE2;
+  background: linear-gradient(to top, #FCFCE2, white);
 }
 
 .view6 .container .top img {
@@ -295,7 +301,7 @@ nav {
   cursor: pointer;
 }
 
-/* View6 (Mobile First)  */
+/* View7 (Mobile First)  */
 
 .view7 {
   background-color: white;
@@ -303,24 +309,33 @@ nav {
 }
 
 .view7 .container {
+  width: 100%;
   border-radius: 3rem;
   background-color: #042449;
-  padding: 3rem 2rem;
+  overflow: hidden;
+  position: relative;
 }
 
-.view7 .container .top {
-  /* position: relative; */
-   position: relative;
-  top: 0%;
-}
-
-.view7 .container .top img {
-  /* position: absolute; */
- 
+.view7 .container .img img {
   width: 100%;
-  max-width: 370px;
   height: auto;
-  /* object-fit: cover; */
+}
+
+.view7 .container .text {
+  top: 40%;
+  border: 1rem solid black;
+  position: absolute;
+}
+
+.view7 .container .text h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 1rem;
+}
+.view7 .container .text p{
+  font-size: 1rem;
 }
 
 @media (min-width: 900px) {
@@ -414,6 +429,7 @@ nav {
   /* View4 (Desktop)  */
 
   .view4 .container {
+    background: linear-gradient(to right, #FCFCE2, white);
     margin: 0 auto;
     padding: 2rem;
     display: flex;
@@ -445,7 +461,7 @@ nav {
     font-size: 1.5rem;
   }
 
-  /* View1 (Desktop)  */
+  /* View5 (Desktop)  */
 
   .view5 .container {
     margin-top: 4rem;
@@ -478,9 +494,10 @@ nav {
     font-size: 1.5rem;
   }
 
-  /* View4 (Desktop)  */
+  /* View6 (Desktop)  */
 
   .view6 .container {
+    background: linear-gradient(to right, #FCFCE2, white);
     margin: 0 auto;
     padding: 2rem;
     display: flex;
