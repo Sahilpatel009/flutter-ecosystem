@@ -151,7 +151,7 @@ nav {
 
 /* View4 (Mobile First)  */
 
-.view4 .container {
+.view4 {
   background: linear-gradient(to top, #FCFCE2, white);
 }
 
@@ -251,9 +251,12 @@ nav {
 
 /* View6 (Mobile First)  */
 
+.view6 {
+  background: linear-gradient(to top, #FCFCE2, white);
+}
+
 .view6 .container {
   margin-top: 5rem;
-  background: linear-gradient(to top, #FCFCE2, white);
 }
 
 .view6 .container .top img {
@@ -307,6 +310,7 @@ nav {
   background-color: white;
   padding: 4rem 2rem;
   width: 100%;
+  margin: 4rem 0rem;
 }
 
 .view7 .container {
@@ -319,7 +323,7 @@ nav {
 
 .view7 .container .img img {
   width: 100%;
-  height: auto;
+  height: 390px;
 }
 
 .view7 .container .text {
@@ -333,12 +337,12 @@ nav {
   font-size: 3.5rem;
   font-weight: 500;
   color: white;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .view7 .container .text p {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .view7 .container .text .btn {
@@ -352,8 +356,10 @@ nav {
 .view7 .container .text .btn a {
   color: white;
   text-decoration: none;
+  font-weight: 700;
 }
-.view7 .container .text .btn i{
+
+.view7 .container .text .btn i {
   font-weight: 500;
 }
 
@@ -364,6 +370,28 @@ nav {
   border: none;
   font-size: 1rem;
   font-weight: 700;
+}
+
+/* Footer (Mobile First)  */
+
+footer {
+  border: 0.3rem solid black;
+  padding-left: 4rem;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 4rem; */
+  gap: 3rem;
+}
+
+footer .links ul {
+  list-style-type: none;
+}
+
+footer .links ul li a {
+  text-decoration: none;
 }
 
 @media (min-width: 900px) {
@@ -455,9 +483,11 @@ nav {
   }
 
   /* View4 (Desktop)  */
+  .view4 {
+    background: linear-gradient(to right, #FCFCE2, white);
+  }
 
   .view4 .container {
-    background: linear-gradient(to right, #FCFCE2, white);
     margin: 0 auto;
     padding: 2rem;
     display: flex;
@@ -524,8 +554,11 @@ nav {
 
   /* View6 (Desktop)  */
 
-  .view6 .container {
+  .view6 {
     background: linear-gradient(to right, #FCFCE2, white);
+  }
+
+  .view6 .container {
     margin: 0 auto;
     padding: 2rem;
     display: flex;
@@ -561,6 +594,7 @@ nav {
 
   .view7 {
     padding: 6rem;
+    margin: 2rem 0rem;
   }
 
   .view7 .container .text {
@@ -570,7 +604,8 @@ nav {
     padding-left: 3rem;
     padding-right: 3rem;
   }
-  .view7 .container .text p{
+
+  .view7 .container .text p {
     font-size: 1.5rem;
   }
 
@@ -583,9 +618,23 @@ nav {
   .view7 .container img {
     width: 100%;
     max-width: 380px;
-    height: auto;
+    max-height: 320px;
   }
-  .view7 .container .text .btn button{
+
+  .view7 .container .text .btn button {
     padding: 0.7rem 2.2rem;
+  }
+}
+
+@media(min-width:2160px) {
+
+  .view1,
+  .view2,
+  .view3,
+  .view4,
+  .view5,
+  .view6,
+  .view7 {
+    padding: 0rem 100rem;
   }
 }
