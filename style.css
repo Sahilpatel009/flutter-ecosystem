@@ -306,6 +306,7 @@ nav {
 .view7 {
   background-color: white;
   padding: 4rem 2rem;
+  width: 100%;
 }
 
 .view7 .container {
@@ -322,20 +323,47 @@ nav {
 }
 
 .view7 .container .text {
-  top: 40%;
-  border: 1rem solid black;
+  top: 20%;
   position: absolute;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .view7 .container .text h1 {
-  text-align: center;
   font-size: 3.5rem;
   font-weight: 500;
   color: white;
   margin-bottom: 1rem;
 }
-.view7 .container .text p{
+
+.view7 .container .text p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.view7 .container .text .btn {
+  color: white;
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.view7 .container .text .btn a {
+  color: white;
+  text-decoration: none;
+}
+.view7 .container .text .btn i{
+  font-weight: 500;
+}
+
+.view7 .container .text button {
+  padding: 1rem 2.8rem;
+  border-radius: 2rem;
+  color: #0468D7;
+  border: none;
   font-size: 1rem;
+  font-weight: 700;
 }
 
 @media (min-width: 900px) {
@@ -527,5 +555,37 @@ nav {
 
   .view6 .container .bottom .text p {
     font-size: 1.5rem;
+  }
+
+  /* View7 (Desktop)  */
+
+  .view7 {
+    padding: 6rem;
+  }
+
+  .view7 .container .text {
+    top: 20%;
+    left: 2%;
+    position: absolute;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .view7 .container .text p{
+    font-size: 1.5rem;
+  }
+
+  .view7 .container .text h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+  }
+
+  .view7 .container img {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+  }
+  .view7 .container .text .btn button{
+    padding: 0.7rem 2.2rem;
   }
 }
