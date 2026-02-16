@@ -671,7 +671,7 @@ footer .termCondition .term ul {
 
   .view7 {
     padding: 6rem;
-    margin: 2rem 0rem;
+    /* margin: 2rem 0rem 4rem 0rem; */
   }
 
   .view7 .container .text {
@@ -701,9 +701,34 @@ footer .termCondition .term ul {
   .view7 .container .text .btn button {
     padding: 0.7rem 2.2rem;
   }
+
+  /* Footer (Desktop)  */
+
+  footer .main {
+    display: flex;
+    gap: 8rem;
+  }
+
+  footer .main .logo {
+    margin-right: 25rem;
+  }
+
+  footer .social-links {
+    justify-content: start;
+  }
+
+  footer .termCondition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .term {
+    padding-bottom: 3rem;
+  }
 }
 
-@media(min-width:2160px) {
+@media(min-width:3860px) {
 
   .view1,
   .view2,
@@ -711,7 +736,8 @@ footer .termCondition .term ul {
   .view4,
   .view5,
   .view6,
-  .view7 {
+  .view7,
+  footer {
     padding: 0rem 100rem;
   }
 }
