@@ -14,9 +14,48 @@ html {
   font-size: clamp(14px, 1vw, 18px);
 }
 
-nav {
+/* nav {
   background-color: white;
   padding: 1rem;
+} */
+.nav-bar {
+  width: 100%;
+  display: flex;
+  border: 0.2rem solid black;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.nav-bar .main-menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0rem 1rem;
+  color: rgba(0, 0, 0, 0.76);
+}
+
+.nav-bar .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+
+}
+
+.nav-bar .logo h1 {
+  /* font-size: 2rem; */
+  color: #111111a9;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.nav-bar .logo i {
+  color: #5FC9F8;
+  font-size: 3rem;
+}
+
+.nav-bar .main-menu ul i {
+  color: rgba(0, 0, 0, 0.76);
 }
 
 /* View1 (Mobile First)  */
