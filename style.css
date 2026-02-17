@@ -308,7 +308,7 @@ nav {
 
 .view7 {
   background-color: white;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   width: 100%;
   margin: 4rem 0rem;
 }
@@ -323,11 +323,11 @@ nav {
 
 .view7 .container .img img {
   width: 100%;
-  height: 390px;
+  height: 470px;
 }
 
 .view7 .container .text {
-  top: 20%;
+  top: 30%;
   position: absolute;
   padding-left: 3rem;
   padding-right: 3rem;
