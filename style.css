@@ -14,31 +14,60 @@ html {
   font-size: clamp(14px, 1vw, 18px);
 }
 
-/* nav {
-  background-color: white;
-  padding: 1rem;
-} */
+/* Nav Bar */
+
 .nav-bar {
   width: 100%;
   display: flex;
-  border: 0.2rem solid black;
   background-color: white;
   align-items: center;
   justify-content: space-between;
   color: white;
+  padding: 1.5rem 4rem 1rem 1rem;
+}
+
+.nav-bar .main-menu ul {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-bar .main-menu ul i {
+  cursor: pointer;
 }
 
 .nav-bar .main-menu ul li {
   list-style: none;
   display: inline-block;
   margin: 0rem 1rem;
-  color: rgba(0, 0, 0, 0.76);
+  color: rgba(0, 0, 0, 0.664);
+  font-weight: 700;
+}
+
+.nav-bar .main-menu ul button {
+  border-radius: 2rem;
+  padding: 0.9rem 2.2rem;
+  background-color: #0468D7;
+  border: none;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.nav-bar .main-menu ul li:hover {
+  background-color: rgba(247, 240, 240, 0.63);
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  color: #0468D7;
+  cursor: pointer;
 }
 
 .nav-bar .logo {
   display: flex;
   align-items: center;
   margin-left: 2rem;
+  cursor: pointer;
 
 }
 
@@ -52,6 +81,7 @@ html {
 .nav-bar .logo i {
   color: #5FC9F8;
   font-size: 3rem;
+  cursor: pointer;
 }
 
 .nav-bar .main-menu ul i {
@@ -61,7 +91,6 @@ html {
 /* View1 (Mobile First)  */
 
 .view1 {
-  margin-top: 2rem;
   background: linear-gradient(#F3FCFF, rgba(255, 205, 214, 0.589) 70%);
 }
 
